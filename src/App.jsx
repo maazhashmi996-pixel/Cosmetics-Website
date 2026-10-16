@@ -1,15 +1,13 @@
 import React from 'react'
-import Navbar from '../Components/Navbar'
 import { BrowserRouter,Routes,Route } from 'react-router-dom'
-import About from '../about/About'
-
+import Blog from '../Components/Blog'
 function App() {
   return (
     <div>
      <BrowserRouter>
-     <Navbar/>
+     <Blog/>
      <Routes>
-      <Route path="/About" element={<About/>}></Route>
+
      </Routes>
      </BrowserRouter>
     
