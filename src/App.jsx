@@ -2,6 +2,8 @@ import React from 'react'
 import Navbar from '../Components/Navbar'
 import { BrowserRouter,Routes,Route } from 'react-router-dom'
 import Home from '../home/Home'
+import Hair from '../home/Hair'
+import Article from '../home/Article'
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <Route path="/Home" element={<Home/>}></Route>
      </Routes>
      </BrowserRouter>
+      <Hair/>
+      <Article/>
     
     </div>
   )

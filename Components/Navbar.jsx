@@ -14,12 +14,12 @@ function Navbar() {
       <img src="/public/logo.svg" alt="logo" />
     </Link>
     <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center ">
-      <Link to={"/Home"} className="mr-5 hover:text-gray-900">Home</Link>
-      <Link className="mr-5 hover:text-gray-900">Portfolio</Link>
-      <Link className="mr-5 hover:text-gray-900">Services</Link>
-      <Link className="mr-5 hover:text-gray-900">About Us</Link>
-      <Link className="mr-5 hover:text-gray-900">Blog</Link>
-      <Link className="mr-5 hover:text-gray-900">Contant</Link>
+      <Link to={"/Home"} className="mr-5 hover:text-gray-900 underline decoration-[#9C8986] decoration-2 underline-offset-8">Home</Link>
+      <Link className="mr-5 hover:text[#BCA854]">Portfolio</Link>
+      <Link className="mr-5 hover:text[#BCA854]">Services</Link>
+      <Link className="mr-5 hover:text[#BCA854]">About Us</Link>
+      <Link className="mr-5 hover:text[#BCA854]">Blog</Link>
+      <Link className="mr-5 hover:text[#BCA854]">Contant</Link>
     </nav>
     <button className="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none  rounded text-base mt-4 md:mt-0 hover:bg-black hover:text-white">Book Now
       <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-1" viewBox="0 0 24 24">
