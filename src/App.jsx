@@ -1,15 +1,10 @@
 import React from 'react'
 import { BrowserRouter,Routes,Route } from 'react-router-dom'
-import Blog from '../Components/Blog'
+import Contacts from '../Components/Contacts'
 function App() {
   return (
     <div>
-     <BrowserRouter>
-     <Blog/>
-     <Routes>
-
-     </Routes>
-     </BrowserRouter>
+     <Contacts/>
     
     </div>
   )
