@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=Playfair+Display:wght@400;500&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+.services-section {
+    width: 100%;
+    background: #ffffff;
+    overflow: hidden;
+}
+.heading{
+    text-align: center;
+    font-size:50px;
+    font-weight: 500;
+    margin-top: 30px ;
+    font-family:serif;
+    margin-bottom: 40px;
+}
+.service-box {
+  display: flex;
+  width: 100%;
+  min-height: 500px;
+}
+.service-box.reverse {
+  flex-direction: row-reverse;
+}
+.service-info {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 65px 8.9%;
+  background-color: #ffffff;
+}
+
+.service-info h2 {
+  color: #201b18;
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 1.25;
+  margin: 0 0 42px;
+  white-space: nowrap;
+}
+
+.service-prices {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.price-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  width: 100%;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 15px;
+}
+
+.price-row span {
+  color: #5c5a5a;
+  font-weight: 300;
+}
+
+.price-row strong {
+  color: #171717;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.service-photo {
+  width: 50%;
+  min-height: 500px;
+  overflow: hidden;
+  position: relative;
+}
+
+.service-photo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 500px;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.8s ease;
+}
+.service-photo:hover img {
+  transform: scale(1.06);
+}
+@media (max-width: 1000px) {
+  .service-info {
+    padding: 50px 5%;
+  }
+
+  .service-info h2 {
+    font-size: 34px;
+    white-space: normal;
+  }
+
+  .price-row {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 700px) {
+  .service-box,
+  .service-box.reverse {
+    flex-direction: column;
+  }
+
+  .service-info,
+  .service-photo {
+    width: 100%;
+  }
+
+  .service-info {
+    min-height: 370px;
+    padding: 50px 28px;
+  }
+
+  .service-info h2 {
+    font-size: 35px;
+    margin-bottom: 30px;
+  }
+
+  .service-prices {
+    gap: 27px;
+  }
+
+  .service-photo,
+  .service-photo img {
+    min-height: 330px;
+    height: 330px;
+  }
+}
