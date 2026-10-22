@@ -4,8 +4,11 @@ import Contacts from '../Components/Contacts'
 function App() {
   return (
     <div>
-     <Contacts/>
-    
+      <BrowserRouter>
+      <Routes>
+        <Route path="/contacts" element={<Contacts />} />
+      </Routes>
+      </BrowserRouter>    
     </div>
   )
 }
