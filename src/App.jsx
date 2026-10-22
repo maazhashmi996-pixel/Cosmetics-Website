@@ -1,20 +1,20 @@
 import React from 'react'
-import Navbar from '../Components/Navbar'
+ 
 import { BrowserRouter,Routes,Route } from 'react-router-dom'
-import About from '../about/About'
+
+import Services from '../Components/Services'
 
 function App() {
-  return (
-    <div>
-     <BrowserRouter>
-     <Navbar/>
-     <Routes>
-      <Route path="/About" element={<About/>}></Route>
-     </Routes>
-     </BrowserRouter>
-    
-    </div>
+  return   ( 
+<BrowserRouter>
+<Routes>
+<Route path="/Sevices" element={<Services />} />
+</Routes>
+
+
+</BrowserRouter>
   )
 }
 
-export default App
+
+export default App;
