@@ -1,18 +1,16 @@
-import React from "react";
-// import Navbar from "../Components/Navbar";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import About from "../Components/About";
-
+import React from 'react'
+import { BrowserRouter,Routes,Route } from 'react-router-dom'
+import Contacts from '../Components/Contacts'
 function App() {
   return (
-    <BrowserRouter>
-      {/* <About /> */}
-
+    <div>
+      <BrowserRouter>
       <Routes>
-        <Route path="/about" element={<About />} />
+        <Route path="/contacts" element={<Contacts />} />
       </Routes>
-    </BrowserRouter>
-  );
+      </BrowserRouter>    
+    </div>
+  )
 }
 
 export default App;
