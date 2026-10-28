@@ -3,7 +3,7 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import About from "../Components/About";
 
-function App() {
+function App() { 
   return (
     <BrowserRouter>
       {/* <About /> */}
