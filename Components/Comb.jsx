@@ -14,7 +14,7 @@ function Comb() {
                <a href="#book-appointment"className="rounded-full bg-[#C2AD6B] px-8 py-3.5 text-sm font-medium tracking-wide text-black transition-all hover:bg-[#B8A461]">BOOK AN APPOINTMENT</a>
 
   
-               <a href="#contact"className="rounded-full border border-black bg-transparent px-8 py-3.5 text-sm font-medium tracking-wide text-black transition-all hover:bg-black hover:text-white">CONTACT US</a>
+               <a href="Contact"className="rounded-full border border-black bg-transparent px-8 py-3.5 text-sm font-medium tracking-wide text-black transition-all hover:bg-black hover:text-white">CONTACT US</a>
               </div>
             </div>
             <div>
