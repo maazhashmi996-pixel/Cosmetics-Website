@@ -3,16 +3,16 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import About from "../Components/About";
 
-function App() { 
+function App() {
   return (
-    <BrowserRouter>
-      {/* <About /> */}
-
+    <div>
+      <BrowserRouter>
       <Routes>
-        <Route path="/about" element={<About />} />
+        <Route path="/contacts" element={<Contacts />} />
       </Routes>
-    </BrowserRouter>
-  );
+      </BrowserRouter>    
+    </div>
+  )
 }
 
 export default App;
