@@ -1,6 +1,6 @@
 import React from 'react'
 
-function About() {
+function Section() {
   return (
     
       <section className='bg-[url("/public/16.avif")] bg-no-repeat bg-top bg-cover h-screen'>
@@ -19,4 +19,4 @@ function About() {
   )
 }
 
-export default About
+export default Section
