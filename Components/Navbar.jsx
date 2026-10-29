@@ -17,11 +17,13 @@ function Navbar() {
       <Link to="/" className="mr-5 hover:text-gray-900 underline decoration-[#9C8986] decoration-2 underline-offset-8">Home</Link>
       <Link to="/About" className="mr-5 hover:text[#BCA858]">About</Link>
       <Link to="/Services" className="mr-5 hover:text[#BCA858]">Services</Link>
+      <Link to="/Portfolio" className="mr-5 hover:text[#BCA858]">Portfolio</Link>
+      <Link to="/Blog" className="mr-5 hover:text[#BCA858]">Blog</Link>
       <Link to="/Contact" className="mr-5 hover:text[#BCA858]">Contact</Link>
     </nav>
-    <button className="flex items-center justify-center border border-black px-8 py-3 rounded-full text-black hover:bg-black hover:text-white transition duration-300">
+<a href='Contact' className="flex items-center justify-center border border-black px-8 py-3 rounded-full text-black hover:bg-black hover:text-white transition duration-300">
       Book Now
-    </button>
+    </a>
   </div>
 </header>
     </div>
