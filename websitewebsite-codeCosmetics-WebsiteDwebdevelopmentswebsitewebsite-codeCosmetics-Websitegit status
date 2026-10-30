@@ -1,0 +1,242 @@
+ Components/About.jsx                               |  151 [32m+[m[31m-[m
+ Components/Contact.jsx                             |   11 [31m-[m
+ Components/Footer.jsx                              |    2 [32m+[m[31m-[m
+ Components/Home.jsx                                |   37 [32m+[m[31m-[m
+ Components/Navbar.jsx                              |    8 [32m+[m[31m-[m
+ Components/Section.jsx                             |   22 [31m-[m
+ Components/Services.jsx                            |   52 [31m-[m
+ Components/about.css                               |  385 [32m++[m
+ public/backimg.jpg                                 |    3 [32m+[m
+ public/backimg_files/08579759b408d38.jpg           |  Bin [31m0[m -> [32m16157[m bytes
+ public/backimg_files/133fyya.BZeFWptU.css          |    1 [32m+[m
+ public/backimg_files/55697.js.download             |    1 [32m+[m
+ ...SBWaySMr8Habupn-Tqia9pClcI3s31yBOPEY5VjE7lelQ== |   13 [32m+[m
+ ...qrVoBDU5qICA-MnIRO3WgtB0wTTdIJbDhA00akjrvyOkg== |    9 [32m+[m
+ ...Vkcj97cX5WFiJBk5QbDG_gv8tupqnSJlCoPlggHRypNlQ== |   12 [32m+[m
+ public/backimg_files/ads(1).html                   |    3 [32m+[m
+ public/backimg_files/ads(2).html                   |    3 [32m+[m
+ public/backimg_files/ads.html                      |    3 [32m+[m
+ public/backimg_files/aframe.html                   |    3 [32m+[m
+ public/backimg_files/analytics.js.download         |    0
+ public/backimg_files/ca                            |  112 [32m+[m
+ public/backimg_files/ca-pub-1336670899173323       |  537 [32m+++[m
+ public/backimg_files/client                        |  429 [32m++[m
+ public/backimg_files/cookie_push_onload.html       |   13 [32m+[m
+ public/backimg_files/f(1).txt                      |   40 [32m+[m
+ public/backimg_files/f(2).txt                      |  408 [32m++[m
+ public/backimg_files/f(3).txt                      |  840 [32m++++[m
+ public/backimg_files/f(4).txt                      |  248 [32m++[m
+ public/backimg_files/f.txt                         |   10 [32m+[m
+ public/backimg_files/fgzP                          |    1 [32m+[m
+ public/backimg_files/get                           |    1 [32m+[m
+ public/backimg_files/google                        |  Bin [31m0[m -> [32m807[m bytes
+ public/backimg_files/grzq4m.uzWbP-6g.css           |    1 [32m+[m
+ public/backimg_files/hn1kqyny.png                  |  Bin [31m0[m -> [32m97123[m bytes
+ public/backimg_files/hoisted.BztiZtES.js.download  |    1 [32m+[m
+ public/backimg_files/hwph8i.BCv5xu8h.png           |  Bin [31m0[m -> [32m1880[m bytes
+ public/backimg_files/jmhs3o.BVq1RVWJ.css           |    1 [32m+[m
+ public/backimg_files/js                            | 1335 [32m++++++[m
+ public/backimg_files/l                             |    0
+ .../lantern_global_55697.min.js.download           |    1 [32m+[m
+ ...light-blue-banner-background-image_15563018.jpg |  Bin [31m0[m -> [32m29756[m bytes
+ ...ercolor-business-poster-banner-image_926555.jpg |  Bin [31m0[m -> [32m89495[m bytes
+ ...ect-particle-banner-background-image_213574.jpg |  Bin [31m0[m -> [32m26286[m bytes
+ ...ng-cosmetics-background-banner-image_926599.jpg |  Bin [31m0[m -> [32m79725[m bytes
+ ...e-light-blue-banner-background-image_519888.jpg |  Bin [31m0[m -> [32m6189[m bytes
+ ...ics-light-blue-creative-banner-image_806622.jpg |  Bin [31m0[m -> [32m93817[m bytes
+ ...-blue-creative-banner-picture-image_1495820.jpg |  Bin [31m0[m -> [32m275961[m bytes
+ ...und-lighting-light-banner-hd-image_16008558.jpg |  Bin [31m0[m -> [32m70455[m bytes
+ ...-banner-background-wallpaper-image_16369804.jpg |  Bin [31m0[m -> [32m14315[m bytes
+ ...erry-blossoms-and-soft-bokeh-image_16675805.jpg |  Bin [31m0[m -> [32m10723[m bytes
+ ...r-splash-light-blue-background-image_233785.jpg |  Bin [31m0[m -> [32m35010[m bytes
+ ...r-buds-and-scattered-petals-image_21929504.webp |  Bin [31m0[m -> [32m7804[m bytes
+ ...le-banner-background-bluebubble-image_83250.jpg |  Bin [31m0[m -> [32m11315[m bytes
+ ...y-greeting-card-banner-with-image_21929604.webp |  Bin [31m0[m -> [32m46126[m bytes
+ ...ay-water-light-blue-background-image_926330.jpg |  Bin [31m0[m -> [32m149118[m bytes
+ ...ith-splashing-water-ripples-image_21854746.webp |  Bin [31m0[m -> [32m12492[m bytes
+ ...ogy-building-light-blue-banner-image_805810.jpg |  Bin [31m0[m -> [32m71540[m bytes
+ public/backimg_files/saved_resource                |  Bin [31m0[m -> [32m807[m bytes
+ public/backimg_files/saved_resource(1).html        |    3 [32m+[m
+ public/backimg_files/saved_resource(2).html        |    3 [32m+[m
+ public/backimg_files/saved_resource(3).html        |    3 [32m+[m
+ public/backimg_files/saved_resource(4).html        |    3 [32m+[m
+ public/backimg_files/saved_resource(5).html        |    3 [32m+[m
+ public/backimg_files/saved_resource(6).html        |    3 [32m+[m
+ public/backimg_files/saved_resource.html           |    3 [32m+[m
+ public/backimg_files/sodar                         |    0
+ public/backimg_files/style                         |    1 [32m+[m
+ public/backimg_files/tze2z0.ZzFy1FiW.svg           |    1 [32m+[m
+ public/backimg_files/v5.BKcJbXjH.css               |    1 [32m+[m
+ public/backimg_files/zrt_lookup_fy2021.html        |   22 [32m+[m
+ public/beautifulskin.jpg                           |  Bin [31m0[m -> [32m50512[m bytes
+ public/eco friendly.svg                            |   11 [32m+[m
+ public/favicon.svg                                 |    1 [31m-[m
+ public/icons.svg                                   |   24 [31m-[m
+ public/lotion.svg                                  |   17 [32m+[m
+ public/mascara-3.svg                               |   12 [32m+[m
+ public/organic.svg                                 |   18 [32m+[m
+ public/role model.svg                              |    7 [32m+[m
+ .../-5KD0kp0XJ4f-tKx0_7xGVcKmog.br.css             |    1 [32m+[m
+ .../0WKY0ny-iWR3yYCvsD6MQVMjVbw.svg                |    3 [32m+[m
+ .../0q2sEVnxowfpXhOvOhzF0raY8Zw.br.js.download     |    1 [32m+[m
+ .../salon Videos_files/27.48e0ded1a9.js.download   |    2 [32m+[m
+ .../salon Videos_files/322.293b521d45.js.download  | 4570 [32m++++++++++++++++++++[m
+ .../3vqB8YTPG0fR1bY1XHmUYfs1Y30.br.js.download     |    1 [32m+[m
+ .../4TRx7jIELe6oowuM5RFA-ZOhdSc.br.js.download     |    1 [32m+[m
+ .../4eEyxqISmvSYYApQLGeAhyQVQCw.br.js.download     |    1 [32m+[m
+ .../5-y8FBmAkXLBZZghI-X94CRnsqg.br.css             |    1 [32m+[m
+ .../salon Videos_files/522.37efa4c9c0.js.download  |    7 [32m+[m
+ public/salon Videos_files/522.d142f0e61e.css       |    2 [32m+[m
+ .../salon Videos_files/613.94d8fa5143.js.download  |    2 [32m+[m
+ .../salon Videos_files/65.73d1181c43.js.download   |    2 [32m+[m
+ .../6BDPaVvk5brg4atq3sXjGeyqEVY.br.js.download     |    1 [32m+[m
+ .../salon Videos_files/73.42e10e9fa3.js.download   |    3 [32m+[m
+ public/salon Videos_files/7558661182177987870.html |   10 [32m+[m
+ .../salon Videos_files/781.2c183cc70d.js.download  |    2 [32m+[m
+ .../7a2i0Cj_Oy_wgI_M3VR9SKy5_9I.br.js.download     |    1 [32m+[m
+ .../8hNT0JZZ_ZbEJ5ff8zlK38DlHUE.br.js.download     |    1 [32m+[m
+ .../8s4EwGwYJJqDxIHz968i1wjpSfQ.br.js.download     |    1 [32m+[m
+ .../salon Videos_files/938.e6e12d4764.js.download  |    2 [32m+[m
+ .../9aNHHquP6U2G0O3NmBoids3tOu0.br.js.download     |    1 [32m+[m
+ .../9mM--t8iClqcK4e1MHzNovhHkVA.svg                |    3 [32m+[m
+ .../9n4HNUqLs7jftUxne8MoPP4ufgo.br.js.download     |    1 [32m+[m
+ .../B24V7oRNcKlYD0grEC7dedPRKJ0.br.js.download     |    1 [32m+[m
+ .../BBUAE-4jByUHhQFMNd_rpkKGaEE.br.js.download     |    1 [32m+[m
+ .../BrpxSx5hYXbHIZZk1qlX1sdzG44.br.js.download     |    1 [32m+[m
+ .../C9bIwrgNDRP7hwfGEVx2jtZDGm8.br.css             |    1 [32m+[m
+ .../C_8A6P7WSYmkbSoBtgzt27d3ojs.br.js.download     |    1 [32m+[m
+ .../EihcO9CPjZoU1STsNEUkBXt0GIY.br.js.download     |    1 [32m+[m
+ .../EntAuZ-Y833kxnjL9rUtB7F8m-g.br.css             |    1 [32m+[m
+ .../EnxEroh24xBAWPmv7ifBWLFZZUY.br.js.download     |    1 [32m+[m
+ .../F5ic_OlJ6y_FT-FNkCarzWvvP34.br.js.download     |    1 [32m+[m
+ public/salon Videos_files/Flag_Feedback.png        |  Bin [31m0[m -> [32m156[m bytes
+ .../GdDAHqnr0K53erAiuuM3jAescYI.br.js.download     |  282 [32m++[m
+ .../HMRoiCAlVyAjFa_7ZBDBZKfByzk.br.js.download     |    1 [32m+[m
+ .../I0R1jh8SYwE8U4Xv_pQql7X2tdo.br.js.download     |    1 [32m+[m
+ .../I6cJQJPTSrpQkRGTSYcJFsfrn4Q.br.js.download     |    1 [32m+[m
+ .../Ierf94ckcjrcCwHOPBln5qm8Xzk.br.css             |    1 [32m+[m
+ .../ItemPage.3092bcdf92.js.download                |    2 [32m+[m
+ public/salon Videos_files/ItemPage.e28d53f648.css  |    2 [32m+[m
+ .../JavbpNF8J-ZNaXYSsgKbWriNNfQ.br.js.download     |    1 [32m+[m
+ .../KLrSbzDKMog0mCiPcB9iwoEvlE4.br.js.download     |    1 [32m+[m
+ .../LfuJ5OE-xFmlXs__mPINTxU6p2Y.br.js.download     |    1 [32m+[m
+ .../OSTgKHdXM6Yypj33S39WfziyT70.br.js.download     |    1 [32m+[m
+ .../Pay4yaPOiUAvZS2FdTZQjeCxe84.br.css             |    1 [32m+[m
+ .../RBARmUXLe8rKWg9gEFXYysn3nEg.br.css             |    1 [32m+[m
+ .../RY6LR5t32Jw7vjhgimTyQvg7AWc.br.js.download     |   88 [32m+[m
+ .../SC0_AnXip4aHf_QiSC2sznAxO4A.br.js.download     |    1 [32m+[m
+ .../SVMbBeBKokrK5jTGBbcEnjtvXZc.br.js.download     |    1 [32m+[m
+ .../SZkvaqgJk_ATzeyWU4NRFaYM7tc.br.js.download     |    1 [32m+[m
+ .../SfltwToOZsw_vQo8UQHP8llZo3A.br.js.download     |    1 [32m+[m
+ .../TUAuyPGSTScIEMP4wbyYWgcvKvg.br.js.download     |    1 [32m+[m
+ .../Thx1xviRvn0tWKJYAtdgPXhvLmM.br.js.download     |    1 [32m+[m
+ .../UQkW31Vym8-UsXPt-w8EpIe1nvg.br.js.download     |    1 [32m+[m
+ .../UyW6g8LM095EraSPhW0X963hzxw.br.js.download     |    1 [32m+[m
+ .../VBMWNBaopvMDjXAUTdJVsKWYmbU.br.js.download     |    1 [32m+[m
+ .../VM2d0uc-tu2czUyRcrrEH1yBTEA.br.js.download     |    1 [32m+[m
+ .../WOG1Mfra_udfmLaueBTKogwOp7M.br.js.download     |    1 [32m+[m
+ .../WWBYQspELm-o6lD5ie3FJAeRiH8.br.js.download     |    1 [32m+[m
+ .../XhuulIbo88eLoQSXNdexXtHhacY.svg                |    3 [32m+[m
+ .../YG0v5IWCB18vXcMDke3oG8WmOrg.br.js.download     |    1 [32m+[m
+ .../YPzuQKPOAMgOElytXApV-gLRXy4.br.js.download     |    1 [32m+[m
+ .../ZJ1v6v1PrTehjlO33dPqRZxj9NQ.br.js.download     |   13 [32m+[m
+ .../af9LTc0WRA6nNz0w6XB3mlZ8o9E.br.js.download     |    1 [32m+[m
+ .../argus-builder-strategy.5ffe7b71ae.js.download  |    3 [32m+[m
+ .../bBf3avWyLUFIUG4aErdVmxVxW2I.br.js.download     |    1 [32m+[m
+ .../bTCfLEHiez2SlG6WSZVfe452Cs8.br.js.download     |    1 [32m+[m
+ public/salon Videos_files/browser.sg.js.download   |    1 [32m+[m
+ .../c2Ym7oERKN6E0FZ2DQSdJam3yZM.br.js.download     |    1 [32m+[m
+ .../cO-kMj3TeSLBlDS2q8HGtB76MYQ.br.js.download     |    1 [32m+[m
+ .../cYgPnBDssYZPJr4N-FbQUxY4d1I.br.js.download     |    1 [32m+[m
+ .../cgWKXrMizMwcZ7ZHUH-Qscln0n0.br.js.download     |    1 [32m+[m
+ public/salon Videos_files/collect.js.download      |    1 [32m+[m
+ .../crAq_rsPENpuO-nUsZ6yJ80KTyY.br.js.download     |    1 [32m+[m
+ .../etxYr7IhxTJZE-AU0L_kEGuOTb4.br.js.download     |    1 [32m+[m
+ .../f14sYkAoIbYUnR0EQpMSkaGmmiI.br.css             |    1 [32m+[m
+ .../fz8lb2iJRqod2C14XcI0NUIUHI8.br.js.download     |    1 [32m+[m
+ .../g1pGKRlUi2Es84gKxdSTfgohGG0.br.js.download     |    1 [32m+[m
+ .../hBbanpvNi0XNzWlV-keX2BugWk4.br.js.download     |    2 [32m+[m
+ .../i3ZhrMuOUQAIZ9EGaMjFH0MmprE.br.js.download     |    1 [32m+[m
+ .../iDvwOkbD8ZLnUqWvksfOIaah0HM.br.js.download     |    1 [32m+[m
+ .../iVcg2v9EqZ9-3lU6wV1CN02efh8.br.js.download     |    1 [32m+[m
+ public/salon Videos_files/iframe_api               |    3 [32m+[m
+ .../inzVW6HEsrxKdP-1iXlzZi-upJc.br.js.download     |    1 [32m+[m
+ .../k7yBegAV8h8teSuHbzpmO-H6_do.br.js.download     |    1 [32m+[m
+ .../kxTm6_yMJSr-Au_oSrzcrpJm2mY.svg                |    4 [32m+[m
+ .../lw2AUiaLbjOtTG4FrLxt58VPc1s.br.js.download     |    1 [32m+[m
+ public/salon Videos_files/main.60fb854ced.css      |    2 [32m+[m
+ .../salon Videos_files/main.b23095efd8.js.download |    3 [32m+[m
+ .../mulHhLPL5_vmDi6Mbp-GkZFSQdU.br.js.download     |    1 [32m+[m
+ .../nVdEcFDR2OEpWNbuAienHA1_cWA.br.js.download     |    1 [32m+[m
+ .../nt6a1ZR520utsLoZmSYgwxdOPgI.js.download        |    1 [32m+[m
+ .../nz8p6pVqdz5RYJB-rJAiriVQnc0.br.js.download     |    1 [32m+[m
+ .../owH_cqoMdOEW9LORdHTmv1LuyUo.br.js.download     |    1 [32m+[m
+ .../p09G5ASMUauDyE7RLi63_n6bnSA.br.js.download     |    1 [32m+[m
+ .../pLlo9avNKt3S2PLT5vwB9BJ8laM.br.js.download     |    1 [32m+[m
+ .../pUi_El_aTrL9aofIwt9uifYh6w0.br.js.download     |    1 [32m+[m
+ .../salon Videos_files/page.136766a2dd.js.download |    2 [32m+[m
+ .../r-xmwLodJIpdWxvzU21BsQDIqpo.br.js.download     |    1 [32m+[m
+ .../rbf_X7JDr6EQT2gk1cEi82EeHus.br.js.download     |    1 [32m+[m
+ public/salon Videos_files/relatedvideo.html        |  669 [32m+++[m
+ .../s7T4lgUPifvYShzg8oeVlvnY3_4.br.js.download     |    1 [32m+[m
+ .../salon Videos_files/slardar.web.pre.js.download |    1 [32m+[m
+ .../t-OuFx950RpZjNfsWRooNy-K9mM.br.js.download     |    1 [32m+[m
+ public/salon Videos_files/tea.pre.js.download      |    1 [32m+[m
+ public/salon Videos_files/th                       |  Bin [31m0[m -> [32m12463[m bytes
+ public/salon Videos_files/th(1)                    |  Bin [31m0[m -> [32m1925[m bytes
+ public/salon Videos_files/th(10)                   |  Bin [31m0[m -> [32m2175[m bytes
+ public/salon Videos_files/th(11)                   |  Bin [31m0[m -> [32m4194[m bytes
+ public/salon Videos_files/th(12)                   |  Bin [31m0[m -> [32m2946[m bytes
+ public/salon Videos_files/th(13)                   |  Bin [31m0[m -> [32m4002[m bytes
+ public/salon Videos_files/th(14)                   |  Bin [31m0[m -> [32m3510[m bytes
+ public/salon Videos_files/th(15)                   |  Bin [31m0[m -> [32m2476[m bytes
+ public/salon Videos_files/th(16)                   |  Bin [31m0[m -> [32m3446[m bytes
+ public/salon Videos_files/th(17)                   |  Bin [31m0[m -> [32m2350[m bytes
+ public/salon Videos_files/th(18)                   |  Bin [31m0[m -> [32m2052[m bytes
+ public/salon Videos_files/th(19)                   |  Bin [31m0[m -> [32m2720[m bytes
+ public/salon Videos_files/th(2)                    |  Bin [31m0[m -> [32m1546[m bytes
+ public/salon Videos_files/th(20)                   |  Bin [31m0[m -> [32m2104[m bytes
+ public/salon Videos_files/th(21)                   |  Bin [31m0[m -> [32m3570[m bytes
+ public/salon Videos_files/th(22)                   |  Bin [31m0[m -> [32m4220[m bytes
+ public/salon Videos_files/th(23)                   |  Bin [31m0[m -> [32m2244[m bytes
+ public/salon Videos_files/th(24)                   |  Bin [31m0[m -> [32m2772[m bytes
+ public/salon Videos_files/th(25)                   |  Bin [31m0[m -> [32m3150[m bytes
+ public/salon Videos_files/th(26)                   |  Bin [31m0[m -> [32m2378[m bytes
+ public/salon Videos_files/th(27)                   |  Bin [31m0[m -> [32m2870[m bytes
+ public/salon Videos_files/th(28)                   |  Bin [31m0[m -> [32m1618[m bytes
+ public/salon Videos_files/th(29)                   |  Bin [31m0[m -> [32m2382[m bytes
+ public/salon Videos_files/th(3)                    |  Bin [31m0[m -> [32m2373[m bytes
+ public/salon Videos_files/th(30)                   |  Bin [31m0[m -> [32m2358[m bytes
+ public/salon Videos_files/th(31)                   |  Bin [31m0[m -> [32m1956[m bytes
+ public/salon Videos_files/th(32)                   |  Bin [31m0[m -> [32m2262[m bytes
+ public/salon Videos_files/th(33)                   |  Bin [31m0[m -> [32m1342[m bytes
+ public/salon Videos_files/th(34)                   |  Bin [31m0[m -> [32m2498[m bytes
+ public/salon Videos_files/th(35)                   |  Bin [31m0[m -> [32m2580[m bytes
+ public/salon Videos_files/th(36)                   |  Bin [31m0[m -> [32m3382[m bytes
+ public/salon Videos_files/th(37)                   |  Bin [31m0[m -> [32m1574[m bytes
+ public/salon Videos_files/th(38)                   |  Bin [31m0[m -> [32m4676[m bytes
+ public/salon Videos_files/th(39)                   |  Bin [31m0[m -> [32m3766[m bytes
+ public/salon Videos_files/th(4)                    |  Bin [31m0[m -> [32m2313[m bytes
+ public/salon Videos_files/th(40)                   |  Bin [31m0[m -> [32m4090[m bytes
+ public/salon Videos_files/th(41)                   |  Bin [31m0[m -> [32m2716[m bytes
+ public/salon Videos_files/th(42)                   |  Bin [31m0[m -> [32m5250[m bytes
+ public/salon Videos_files/th(43)                   |  Bin [31m0[m -> [32m2112[m bytes
+ public/salon Videos_files/th(44)                   |  Bin [31m0[m -> [32m1682[m bytes
+ public/salon Videos_files/th(5)                    |  Bin [31m0[m -> [32m2594[m bytes
+ public/salon Videos_files/th(6)                    |  Bin [31m0[m -> [32m2655[m bytes
+ public/salon Videos_files/th(7)                    |  Bin [31m0[m -> [32m3197[m bytes
+ public/salon Videos_files/th(8)                    |  Bin [31m0[m -> [32m2770[m bytes
+ public/salon Videos_files/th(9)                    |  Bin [31m0[m -> [32m1752[m bytes
+ .../u5trjNsuQwjNbTokSm507QP0z3M.br.js.download     |    1 [32m+[m
+ public/salon Videos_files/v2.html                  |    3 [32m+[m
+ .../vwwHPNcMRB8CF3KBmvpN1XIaKDY.br.js.download     |    1 [32m+[m
+ public/salon Videos_files/widget.js.download       |    1 [32m+[m
+ .../salon Videos_files/www-widgetapi.js.download   |  186 [32m+[m
+ .../ybuqOlcCOLAochJv_ExMcCeLUxA.br.js.download     |    1 [32m+[m
+ .../zYRmeqAEd4Z0yDRz8nuL0syHMEI.svg                |    5 [32m+[m
+ .../zhAyM5yqapMccl08bU_FOaqDkQA.br.js.download     |    1 [32m+[m
+ public/salon.jpg                                   |  Bin [31m0[m -> [32m129776[m bytes
+ public/shinesale.jpg                               |  Bin [31m0[m -> [32m149396[m bytes
+ public/shineskin.jpg                               |  Bin [31m0[m -> [32m136074[m bytes
+ src/App.jsx                                        |   33 [32m+[m[31m-[m
+ 241 files changed, 10660 insertions(+), 170 deletions(-)
