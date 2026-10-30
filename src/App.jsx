@@ -6,9 +6,11 @@ import About from "../Components/About";
 function App() {
   return (
     <div>
-      <Routes>
-        <Route path="/About" element={<About />} />
-      </Routes>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/About" element={<About />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   )
 }
