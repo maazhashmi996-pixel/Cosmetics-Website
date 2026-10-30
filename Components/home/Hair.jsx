@@ -2,7 +2,6 @@ import React from 'react'
 
 function Hair() {
   return (
-    // h-screen HATA DIYA
     <article className='bg-white w-full overflow-hidden'>
       <div className='w-[90%] m-auto py-10 md:py-20'>
     
