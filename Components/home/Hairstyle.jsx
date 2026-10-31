@@ -35,21 +35,21 @@ export default function OurWork() {
         ))}
       </div>
 
-      {/* Gallery Grid - Screenshot wala layout */}
+      
       <div className="max-w-[1100px] mx-auto grid grid-cols-1 md:grid-cols-3 gap-5 px-4 auto-rows-[300px]">
         {filtered.map((item) => (
           <div
             key={item.id}
             className={`relative group overflow-hidden ${item.big ? "md:row-span-2 md:h-full" : "h-[300px]"} cursor-pointer`}
           >
-            {/* Image - Zoom effect, bahar nahi ayegi kyuke parent overflow-hidden hai */}
+           
             <img
               src={item.img}
               alt={item.title}
               className="w-full h-full object-cover transition-transform duration-700 ease-in-out group-hover:scale-110"
             />
 
-            {/* Hover Overlay */}
+           
             <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col items-center justify-center text-white">
               <div className="flex gap-3 mb-3 translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
                 <span className="w-9 h-9 bg-white text-black rounded-full flex items-center justify-center">+</span>
