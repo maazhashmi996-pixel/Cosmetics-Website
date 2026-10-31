@@ -3,11 +3,11 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer className="bg-white  mt-20 py-8 md:py-8">
+    <footer className="bg-black  mt-20 py-8 md:py-8">
       <div className="w-[90%] mx-auto grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-16">
 
         <div>
-          <h2 className="text-4xl font-bold text-[#292929]">
+          <h2 className="text-4xl font-bold text-white">
             Akame<span className="text-[#bca858]">.</span>
           </h2>
 
@@ -27,7 +27,7 @@ function Footer() {
         </div>
 
         <div>
-          <h3 className="text-2xl font-serif text-[#222222]">
+          <h3 className="text-2xl font-serif text-white">
             Opening Times
           </h3>
 
@@ -63,7 +63,7 @@ function Footer() {
 
       
         <div>
-          <h3 className="text-2xl font-serif text-[#222222]">
+          <h3 className="text-2xl font-serif text-white">
             Contact Us
           </h3>
 

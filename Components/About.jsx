@@ -8,6 +8,7 @@ function About() {
         <div id="about-sec">
           <div className="heading">
             <h1>AboutUs</h1>
+            <Link to="/">Home</Link>
           </div>
           <div className="left-content">
             <span>New York • Since 2004</span>
