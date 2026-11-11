@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 function Blog() {
   return (
@@ -182,4 +182,4 @@ function Blog() {
   )
 }
 
-export default Blog
+export default Blog;
